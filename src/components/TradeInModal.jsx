@@ -1,4 +1,4 @@
-// Trade-In Section State (Isko Navbar component ke andar top par state mein add karein)
+// Trade-In Section State 
 const [hasTradeIn, setHasTradeIn] = useState(false);
 
 // Trade-in discount value (e.g., $50 off)
