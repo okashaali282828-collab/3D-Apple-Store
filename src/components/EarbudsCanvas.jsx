@@ -97,7 +97,7 @@ function Model() {
     });
 
     // ==============================================
-    // PAGE 2 -> PAGE 3 (NOISE CONTROL)
+    // PAGE 2 > PAGE 3 (NOISE CONTROL)
     // ==============================================
     tl.to(groupRef.current.position, { x: 1.0, y: -0.4, z: 0, duration: 1 }, 'page3')
       .to(groupRef.current.rotation, { x: 0, y: Math.PI * 2.2, z: 0, duration: 1 }, 'page3');
