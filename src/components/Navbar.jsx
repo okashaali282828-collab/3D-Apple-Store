@@ -144,7 +144,7 @@ export default function Navbar() {
         </nav>
       </header>
 
-      {/* SEARCH MODAL */}
+      {/* SEARCHING MODAL */}
       {isSearchOpen && (
         <div className="fixed inset-0 z-50 flex items-start justify-center pt-24 px-4 bg-black/70 backdrop-blur-md">
           <div className="w-full max-w-xl bg-[#1c1c1e] border border-white/20 rounded-2xl p-4 shadow-2xl relative">
